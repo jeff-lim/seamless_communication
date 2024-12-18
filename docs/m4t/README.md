@@ -137,7 +137,7 @@ text_output, _ = translator.predict(
 
 # ASR
 # This is equivalent to S2TT with `<tgt_lang>=<src_lang>`.
-    text_output, _ = translator.predict(
+text_output, _ = translator.predict(
     input=<path_to_input_audio>,
     task_str="ASR",
     tgt_lang=<src_lang>,
